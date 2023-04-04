@@ -1,0 +1,20 @@
+server:
+  port: 9994
+spring:
+  application:
+    name: API-SMS
+  cloud:
+    nacos:
+      server-addr: 10.15.0.3:8848
+  redis:
+    host: 10.15.0.3
+    port: 6379
+
+sms:
+  accesskeyId: LTAI5tGF2kkoJbB9ftdH2DwT
+  secret: YYc2CShh6RVZmMuhQzifAXS5WimvUI
+  signName: 青橙小店
+  templateCode: SMS_217145407
+  regionId: cn-hangzhou
+
+
